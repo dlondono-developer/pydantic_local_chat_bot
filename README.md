@@ -1,6 +1,6 @@
 # Chat Pydantic Application
 
-  This recipe helps developers start building their own custom LLM enabled chat applications with using the new Pydantic Framework! In this example we are using the Pydantic Framework to create a chatbot with history via sqlite database. This recipe consists of two main components: the Model Service and the AI Application.
+  This template helps developers start building their own custom LLM enabled chat applications with using the new Pydantic Framework! In this example we are using the Pydantic Framework to create a chatbot with history via sqlite database. This recipe consists of two main components: the Model Service and the AI Application.
 
   There are a few options today for local Model Serving, but this recipe will use [`llama-cpp-python`](https://github.com/abetlen/llama-cpp-python) and their OpenAI compatible Model Service. There is a Containerfile provided that can be used to build this Model Service within the repo, [`model_servers/llamacpp_python/base/Containerfile`](/model_servers/llamacpp_python/base/Containerfile).
 
